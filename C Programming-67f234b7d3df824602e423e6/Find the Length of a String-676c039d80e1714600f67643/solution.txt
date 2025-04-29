@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\nint main(){\n    char str[20];\n    scanf(\"%[^\\n]s\",str);\n    // SIZE\n    int k=0,size=0;\n    while(str[k]!='\\0'){\n        size++;\n        k++;\n    }\n    printf(\"%d\",size);\n    return 0;\n}\n","language":"c","time":"2025-04-29T16:19:26.533Z","isCorrect":false}]
